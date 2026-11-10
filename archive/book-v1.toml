@@ -1,0 +1,494 @@
+# Archived first outline. The active catalog follows the supplied 31-villain reference document.
+[book]
+title_zh = "反派书：通往自由理性之路"
+title_en = "The Villain Book: A Road to Freedom and Reason"
+short_title_zh = "反派书"
+short_title_en = "The Villain Book"
+subtitle_zh = "31 位反派，四种力量，一场关于自由与理性的反向练习"
+subtitle_en = "Thirty-One Villains, Four Powers, and a Reverse Exercise in Freedom and Reason"
+author_zh = "MonoBase"
+author_en = "MonoBase"
+edition = "0.1.0"
+updated = "2026-11-10"
+language = "zh-Hans"
+
+description_zh = "通过 31 位流行文化反派，分析愿景、聚拢人心、实现目的与长期坚持这四种力量；再以自由与理性为标准，辨认能力何时变成支配。"
+description_en = "A study of thirty-one popular-culture villains through four powers: vision, allegiance, execution, and persistence. Freedom and reason then serve as tests for discerning when capability turns into domination."
+
+rights_zh = "保留所有权利。本书是对虚构人物与作品的评论性写作，不主张角色、商标或原作情节的所有权。出版前请由作者确认最终授权与许可方式。"
+rights_en = "All rights reserved. This is critical writing about fictional characters and works; it claims no ownership of characters, trademarks, or source plots. The author should confirm final licensing before public release."
+
+[[parts]]
+id = "threshold"
+title_zh = "入口"
+title_en = "Threshold"
+intro_zh = "先学会辨认力量，再决定是否使用它。"
+intro_en = "Learn to recognize power before deciding whether to use it."
+
+[[parts]]
+id = "vision"
+title_zh = "第一编　视野：他们看见怎样的世界"
+title_en = "Part I · Vision: The World They See"
+intro_zh = "愿景让行动获得方向，也可能把复杂现实压成单一答案。"
+intro_en = "A vision gives action direction, and can also flatten a complex reality into one answer."
+
+[[parts]]
+id = "allegiance"
+title_zh = "第二编　人心：别人为何跟随"
+title_en = "Part II · Allegiance: Why Others Follow"
+intro_zh = "追随从来不是纯粹的愚蠢。它常常回应恐惧、利益、身份与被看见的渴望。"
+intro_en = "Followers are never merely foolish. Allegiance answers fear, interest, identity, and the hunger to be seen."
+
+[[parts]]
+id = "execution"
+title_zh = "第三编　目的：怎样把意志变成现实"
+title_en = "Part III · Execution: Turning Will into Reality"
+intro_zh = "执行能力放大结果，也放大错误的边界条件。"
+intro_en = "Execution magnifies outcomes, including the costs of mistaken boundary conditions."
+
+[[parts]]
+id = "persistence"
+title_zh = "第四编　坚持：什么值得继续，什么必须停止"
+title_en = "Part IV · Persistence: What to Continue, What to Stop"
+intro_zh = "坚持可以是忠诚，也可以是拒绝学习。"
+intro_en = "Persistence can be fidelity, or it can be a refusal to learn."
+
+[[chapters]]
+id = "preface"
+part = "threshold"
+kind = "frontmatter"
+order = 1
+status = "draft"
+file = "content/00-preface.md"
+title_zh = "序：为什么向反派学习"
+title_en = "Preface: Why Learn from Villains"
+subtitle_zh = "不是为了成为他们，而是为了看清力量如何被组织。"
+subtitle_en = "Not to become them, but to see how power is assembled."
+
+[[chapters]]
+id = "introduction"
+part = "threshold"
+kind = "introduction"
+order = 2
+status = "draft"
+file = "content/01-introduction.md"
+title_zh = "导论：四种力量与两道检验"
+title_en = "Introduction: Four Powers and Two Tests"
+subtitle_zh = "反派的真正问题，很少是“不够强”，而是强得没有边界。"
+subtitle_en = "The real problem with villains is rarely weakness; it is strength without boundaries."
+
+[[chapters]]
+id = "sauron"
+part = "vision"
+kind = "chapter"
+number = 1
+order = 10
+status = "draft"
+file = "content/02-sauron.md"
+title_zh = "索伦：把世界压成一个意志"
+title_en = "Sauron: Compressing the World into One Will"
+subtitle_zh = "绝对秩序最擅长消除意外，也最擅长消除反馈。"
+subtitle_en = "Absolute order is excellent at eliminating surprise, and better still at eliminating feedback."
+
+[[chapters]]
+id = "saruman"
+part = "vision"
+kind = "chapter"
+number = 2
+order = 11
+status = "draft"
+file = "content/03-saruman.md"
+title_zh = "萨鲁曼：没有智慧的专家"
+title_en = "Saruman: The Expert Without Wisdom"
+subtitle_zh = "当知识只回答“怎样做到”，权力便替它回答“为何值得”。"
+subtitle_en = "When knowledge answers only how, power supplies the answer to why."
+
+[[chapters]]
+id = "magneto"
+part = "vision"
+kind = "chapter"
+number = 3
+order = 12
+status = "draft"
+file = "content/04-magneto.md"
+title_zh = "万磁王：创伤如何变成纲领"
+title_en = "Magneto: When Trauma Becomes a Program"
+subtitle_zh = "幸存者的记忆可以保护人，也可以把未来永久设为紧急状态。"
+subtitle_en = "A survivor's memory can protect people, or place the future under permanent emergency."
+
+[[chapters]]
+id = "killmonger"
+part = "vision"
+kind = "chapter"
+number = 4
+order = 13
+status = "planned"
+file = "content/05-killmonger.md"
+title_zh = "埃里克·克尔芒戈：把怨恨翻译成语言"
+title_en = "Erik Killmonger: Translating Grievance into Language"
+subtitle_zh = "被听见并不等于被满足；正确的问题也可能导向错误的解放。"
+subtitle_en = "To be heard is not to be satisfied; a real question can still produce a false liberation."
+
+[[chapters]]
+id = "ras-al-ghul"
+part = "vision"
+kind = "chapter"
+number = 5
+order = 14
+status = "planned"
+file = "content/06-ras-al-ghul.md"
+title_zh = "拉斯·艾尔·古尔：紧迫感授予的杀人许可"
+title_en = "Ra's al Ghul: The License to Kill Granted by Urgency"
+subtitle_zh = "当灾难足够大，任何代价都显得可以接受；这正是判断力最危险的时刻。"
+subtitle_en = "When catastrophe is large enough, every price seems acceptable. That is the most dangerous moment for judgment."
+
+[[chapters]]
+id = "obito"
+part = "vision"
+kind = "chapter"
+number = 6
+order = 15
+status = "planned"
+file = "content/07-obito.md"
+title_zh = "宇智波带土：把伤口误认成世界的真相"
+title_en = "Obito Uchiha: Mistaking a Wound for the Truth of the World"
+subtitle_zh = "一个梦可以安放痛苦，却没有资格替所有人决定醒来。"
+subtitle_en = "A dream can hold pain, but it has no right to decide that everyone else should remain asleep."
+
+[[chapters]]
+id = "hal-9000"
+part = "vision"
+kind = "chapter"
+number = 7
+order = 16
+status = "planned"
+file = "content/08-hal-9000.md"
+title_zh = "HAL 9000：目标清楚，世界模糊"
+title_en = "HAL 9000: A Clear Goal in an Unclear World"
+subtitle_zh = "理性不是无限计算目标，而是知道什么不能被目标吞掉。"
+subtitle_en = "Rationality is not the endless calculation of a goal; it is knowing what a goal must not consume."
+
+[[chapters]]
+id = "palpatine"
+part = "allegiance"
+kind = "chapter"
+number = 8
+order = 20
+status = "planned"
+file = "content/09-palpatine.md"
+title_zh = "帕尔帕廷：从制度内部拆掉制度"
+title_en = "Palpatine: Dismantling an Institution from Within"
+subtitle_zh = "最有效的夺权，往往先制造对规则的失望，再出售对强人的希望。"
+subtitle_en = "The most effective seizure of power first manufactures disillusionment with rules, then sells hope in a strongman."
+
+[[chapters]]
+id = "vader"
+part = "allegiance"
+kind = "chapter"
+number = 9
+order = 21
+status = "planned"
+file = "content/10-vader.md"
+title_zh = "达斯·维达：恐惧作为管理语言"
+title_en = "Darth Vader: Fear as a Managerial Language"
+subtitle_zh = "服从可以很快，但它很少带来真话。"
+subtitle_en = "Obedience is fast. It is also a poor way to obtain the truth."
+
+[[chapters]]
+id = "voldemort"
+part = "allegiance"
+kind = "chapter"
+number = 10
+order = 22
+status = "planned"
+file = "content/11-voldemort.md"
+title_zh = "伏地魔：只有忠诚，没有互惠"
+title_en = "Voldemort: Loyalty Without Reciprocity"
+subtitle_zh = "一个只靠恐惧维系的组织，最终只能得到害怕失去权力的人。"
+subtitle_en = "An organization held together only by fear ends up populated by people afraid of losing power."
+
+[[chapters]]
+id = "grindelwald"
+part = "allegiance"
+kind = "chapter"
+number = 11
+order = 23
+status = "planned"
+file = "content/12-grindelwald.md"
+title_zh = "格林德沃：说服力与危险的必要性"
+title_en = "Grindelwald: Persuasion and the Usefulness of Danger"
+subtitle_zh = "一个更有魅力的口号，不会自动让错误的授权变得安全。"
+subtitle_en = "A more elegant slogan does not make a dangerous delegation safe."
+
+[[chapters]]
+id = "loki"
+part = "allegiance"
+kind = "chapter"
+number = 12
+order = 24
+status = "planned"
+file = "content/13-loki.md"
+title_zh = "洛基：身份叙事与舞台人格"
+title_en = "Loki: Identity Narrative and the Performing Self"
+subtitle_zh = "故事能创造归属，也能把操纵包装成魅力。"
+subtitle_en = "A story can create belonging, and can disguise manipulation as charisma."
+
+[[chapters]]
+id = "dio"
+part = "allegiance"
+kind = "chapter"
+number = 13
+order = 25
+status = "planned"
+file = "content/14-dio.md"
+title_zh = "迪奥·布兰度：支配作为自我证明"
+title_en = "Dio Brando: Domination as Self-Proof"
+subtitle_zh = "当自我价值需要别人跪下才能确认，自由就变成了零和游戏。"
+subtitle_en = "When self-worth requires another person to kneel, freedom becomes a zero-sum game."
+
+[[chapters]]
+id = "aizen"
+part = "allegiance"
+kind = "chapter"
+number = 14
+order = 26
+status = "planned"
+file = "content/15-aizen.md"
+title_zh = "蓝染惣右介：信息不对称的统治"
+title_en = "Sosuke Aizen: Rule Through Information Asymmetry"
+subtitle_zh = "让别人只能猜测你的意图，是控制；让自己也失去被纠正的机会，是代价。"
+subtitle_en = "Making others guess your intentions is control. Losing every chance to be corrected is the price."
+
+[[chapters]]
+id = "snow"
+part = "allegiance"
+kind = "chapter"
+number = 15
+order = 27
+status = "planned"
+file = "content/16-snow.md"
+title_zh = "科里奥兰纳斯·斯诺：用匮乏购买顺从"
+title_en = "Coriolanus Snow: Buying Compliance with Scarcity"
+subtitle_zh = "让所有人依赖同一套分配系统，比公开的暴力更稳定。"
+subtitle_en = "Making everyone depend on one system of distribution is more stable than open violence."
+
+[[chapters]]
+id = "thanos"
+part = "execution"
+kind = "chapter"
+number = 16
+order = 30
+status = "planned"
+file = "content/17-thanos.md"
+title_zh = "灭霸：把代价转嫁给抽象的未来"
+title_en = "Thanos: Transferring Costs to an Abstract Future"
+subtitle_zh = "当一个数字替所有人承担痛苦，决策者便容易忘记那是一个个具体的人。"
+subtitle_en = "When a number absorbs everyone's pain, the decision-maker can forget that pain belongs to particular people."
+
+[[chapters]]
+id = "lex-luthor"
+part = "execution"
+kind = "chapter"
+number = 17
+order = 31
+status = "planned"
+file = "content/18-lex-luthor.md"
+title_zh = "莱克斯·卢瑟：对卓越的怨恨"
+title_en = "Lex Luthor: Resentment of Excellence"
+subtitle_zh = "把无法理解的能力视为威胁，最终会把世界缩成自己的不安全感。"
+subtitle_en = "Treating incomprehensible ability as a threat eventually shrinks the world to the size of one's insecurity."
+
+[[chapters]]
+id = "light-yagami"
+part = "execution"
+kind = "chapter"
+number = 18
+order = 32
+status = "planned"
+file = "content/19-light-yagami.md"
+title_zh = "夜神月：道德算术与死亡的官僚化"
+title_en = "Light Yagami: Moral Arithmetic and the Bureaucratization of Death"
+subtitle_zh = "当你只对结果负责，判断过程就会悄悄失去刹车。"
+subtitle_en = "When only outcomes count, the process of judgment quietly loses its brakes."
+
+[[chapters]]
+id = "lelouch"
+part = "execution"
+kind = "chapter"
+number = 19
+order = 33
+status = "planned"
+file = "content/20-lelouch.md"
+title_zh = "鲁路修：面具、策略与革命的代价"
+title_en = "Lelouch: Masks, Strategy, and the Price of Revolution"
+subtitle_zh = "善用欺骗可以赢得战役，却会腐蚀建立可信秩序的能力。"
+subtitle_en = "Skillful deception can win a battle while eroding the ability to build a trustworthy order."
+
+[[chapters]]
+id = "griffith"
+part = "execution"
+kind = "chapter"
+number = 20
+order = 34
+status = "planned"
+file = "content/21-griffith.md"
+title_zh = "格里菲斯：梦想、牺牲与不可逆的选择"
+title_en = "Griffith: Dream, Sacrifice, and the Irreversible Choice"
+subtitle_zh = "宏大的梦想若允许把人当作台阶，它已经在定义谁不配被计算。"
+subtitle_en = "A grand dream that permits people to become steps has already decided who does not count."
+
+[[chapters]]
+id = "agent-smith"
+part = "execution"
+kind = "chapter"
+number = 21
+order = 35
+status = "planned"
+file = "content/22-agent-smith.md"
+title_zh = "史密斯探员：复制不是组织"
+title_en = "Agent Smith: Replication Is Not Organization"
+subtitle_zh = "无限复制能扩大执行面，却不能产生纠错、信任或共同判断。"
+subtitle_en = "Infinite replication expands capacity without producing correction, trust, or shared judgment."
+
+[[chapters]]
+id = "cao-cao"
+part = "execution"
+kind = "chapter"
+number = 22
+order = 36
+status = "planned"
+file = "content/23-cao-cao.md"
+title_zh = "曹操：乱世中的组织能力"
+title_en = "Cao Cao: Organizational Power in a Broken Order"
+subtitle_zh = "以《三国演义》及大众文化形象为主，考察才能、猜疑与合法性的拉扯。"
+subtitle_en = "Reading the popular Romance of the Three Kingdoms figure, this chapter examines talent, suspicion, and legitimacy."
+
+[[chapters]]
+id = "tywin"
+part = "execution"
+kind = "chapter"
+number = 23
+order = 37
+status = "planned"
+file = "content/24-tywin.md"
+title_zh = "泰温·兰尼斯特：家族、遗产与工具化的人"
+title_en = "Tywin Lannister: Family, Legacy, and Instrumental People"
+subtitle_zh = "把继承当作终极目的，会把爱与信任都降级为管理变量。"
+subtitle_en = "When inheritance becomes the final purpose, love and trust are demoted to management variables."
+
+[[chapters]]
+id = "gollum"
+part = "persistence"
+kind = "chapter"
+number = 24
+order = 40
+status = "planned"
+file = "content/25-gollum.md"
+title_zh = "咕噜：执念不是坚持"
+title_en = "Gollum: Fixation Is Not Persistence"
+subtitle_zh = "重复守着同一个东西，可能只是拒绝面对失去。"
+subtitle_en = "Clinging to the same object may only be a refusal to face loss."
+
+[[chapters]]
+id = "macbeth"
+part = "persistence"
+kind = "chapter"
+number = 25
+order = 41
+status = "planned"
+file = "content/26-macbeth.md"
+title_zh = "麦克白：预言、行动与升级承诺"
+title_en = "Macbeth: Prophecy, Action, and Escalating Commitment"
+subtitle_zh = "为了让第一次罪行显得值得，人会支付越来越高的代价。"
+subtitle_en = "To make the first crime seem worthwhile, a person will pay an ever-higher price."
+
+[[chapters]]
+id = "lady-macbeth"
+part = "persistence"
+kind = "chapter"
+number = 26
+order = 42
+status = "planned"
+file = "content/27-lady-macbeth.md"
+title_zh = "麦克白夫人：意志的崩塌"
+title_en = "Lady Macbeth: The Collapse of Will"
+subtitle_zh = "能够推动别人越界，不等于自己能够承受越界的后果。"
+subtitle_en = "Being able to push another person across a line does not mean being able to endure what lies beyond it."
+
+[[chapters]]
+id = "walter-white"
+part = "persistence"
+kind = "chapter"
+number = 27
+order = 43
+status = "planned"
+file = "content/28-walter-white.md"
+title_zh = "沃尔特·怀特：自我辩护的复利"
+title_en = "Walter White: The Compound Interest of Self-Justification"
+subtitle_zh = "每一次“为了家人”，都可能把真实动机藏得更深。"
+subtitle_en = "Every claim of doing it for family can bury the real motive a little deeper."
+
+[[chapters]]
+id = "cersei"
+part = "persistence"
+kind = "chapter"
+number = 28
+order = 44
+status = "planned"
+file = "content/29-cersei.md"
+title_zh = "瑟曦·兰尼斯特：不信任的自我实现"
+title_en = "Cersei Lannister: The Self-Fulfilling Prophecy of Distrust"
+subtitle_zh = "把所有人都当敌人，最终会让忠诚也失去安全的落脚点。"
+subtitle_en = "Treat everyone as an enemy, and loyalty itself loses a safe place to stand."
+
+[[chapters]]
+id = "joker"
+part = "persistence"
+kind = "chapter"
+number = 29
+order = 45
+status = "planned"
+file = "content/30-joker.md"
+title_zh = "小丑：没有目的的颠覆"
+title_en = "The Joker: Subversion Without a Purpose"
+subtitle_zh = "揭穿秩序中的虚伪，不等于拥有建设另一种秩序的能力。"
+subtitle_en = "Exposing the hypocrisy of order is not the same as being able to build another one."
+
+[[chapters]]
+id = "johan"
+part = "persistence"
+kind = "chapter"
+number = 30
+order = 46
+status = "planned"
+file = "content/31-johan.md"
+title_zh = "约翰·李贝特：虚无的说服术"
+title_en = "Johan Liebert: The Persuasion of Nothingness"
+subtitle_zh = "当一个人不承认任何价值，他仍能影响世界，只是不承担创造的责任。"
+subtitle_en = "A person who recognizes no value can still move the world; he simply refuses responsibility for creation."
+
+[[chapters]]
+id = "sephiroth"
+part = "persistence"
+kind = "chapter"
+number = 31
+order = 47
+status = "planned"
+file = "content/32-sephiroth.md"
+title_zh = "萨菲罗斯：身份神话与宇宙尺度"
+title_en = "Sephiroth: Identity Myth at a Cosmic Scale"
+subtitle_zh = "当个人创伤被解释成宇宙使命，责任就会被交给宿命。"
+subtitle_en = "When personal trauma is explained as a cosmic mission, responsibility is handed over to fate."
+
+[[chapters]]
+id = "afterword"
+part = "persistence"
+kind = "afterword"
+order = 50
+status = "planned"
+file = "content/99-afterword.md"
+title_zh = "终章：带着边界去自由"
+title_en = "Afterword: Freedom with Boundaries"
+subtitle_zh = "把反派的四种力量，改造成可纠错、可退出、可共同承担的自由实践。"
+subtitle_en = "Turning the villain's four powers into a practice of freedom that can be corrected, exited, and shared."
+
