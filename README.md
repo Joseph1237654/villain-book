@@ -1,119 +1,46 @@
-# 反派书：通往自由理性之路
+# 反派书：通往自由与理性之路
 
-**The Villain Book: A Road to Freedom and Reason**
+我们为什么会被一个人的坚定打动？这种力量能不能学来，又能不能在学会以后，仍然允许自己认错？
 
-**2.0 版：九位人物，五种特质**
+这本书把流行文化人物的成长路径与心理模式当作观察材料。它从反派出发，也研究主角、反英雄和立场有争议的人物。我们关心他们怎样形成欲望、承受压力、组织行动、建立合作，以及这些能力如何改变一个人的生活。
 
-通过九位流行文化人物，把他们的**个人力量与心理模式**视为学习对象：坚定的意志力、缜密的计划、不可动摇的决心、众心一致的团队、充满野心的理想。
+**目标是让读者更能作主，也更能判断。** 自由落在具体的选择上：知道自己要什么，能行动，也能拒绝和转向。理性落在判断的过程里：分清事实与愿望，承认不知道，根据结果修改看法。
 
-## 当前状态
+## 先读哪里
 
-- 九章目录与统一分析框架已经完成，选目按网文、漫画两编组织。
-- 序、导论与三篇样章已有中英双语初稿：方源、魂天帝、万磁王。
-- 2.0 版采用四部网文与五部漫画的九人名单，作品与人物对应关系见 `OUTLINE.md`。
-- 成品提供中文版、英文版、双语版，每种均有 HTML、TXT、EPUB。
-- 内容按章节逐步启用；`planned` 章节不会进入成品。
+| 想了解的内容 | 入口 |
+| --- | --- |
+| 全书的定位、主线和篇幅 | [全书设计](BOOK_PLAN.md) |
+| 工作目录与每章要解决的问题 | [目录](SUMMARY.md) |
+| 本书的开场方式 | [序：我们究竟向反派学习什么](manuscript/00-preface.md) |
+| 一章实际准备怎么写 | [第三章试写：说到做到，就够了吗](manuscript/part-01/03-consistency.md) |
+| 下一步做什么、多久能完成 | [写作路线](ROADMAP.md) |
+| 怎样收集场景、怎样判断一章写完了 | [写作方法](WRITING.md) |
 
-阅读全书结构：[OUTLINE.md](OUTLINE.md)  
-核对附件选目：[CATALOG_AUDIT.md](CATALOG_AUDIT.md)  
-查看写作规范：[STYLEGUIDE.md](STYLEGUIDE.md)  
-查看双语术语：[GLOSSARY.md](GLOSSARY.md)
+## 当前进度
 
-## 构建
+截至 2026 年 11 月 14 日，v2 处于**定位与试写阶段**。
 
-项目只需要 Python 3.11 或更高版本，不依赖第三方包。
+- 已有全书设计和十八章工作目录。章数可以调整，目录条目不代表正文完成。
+- 已有一篇序稿和一篇第三章试写，均未定稿。
+- 已建立古月方源、韩立、唐三三张人物研究卡。人物卡是研究任务，不是写好的角色结论。
+- 样章采用的两处小说场景已核对公开英文阅读页；中文原文和版本差异仍需复核。详见[来源记录](notes/sources.md)。
+- 当前可直接在 GitHub 阅读 Markdown，没有生成电子书或搭建网站。
 
-```powershell
-python scripts/build_book.py --check
-python scripts/build_book.py --variant all
-python -m unittest discover -s tests -v
-```
+## 人物如何进入这本书
 
-成品输出到 `dist/`：
+古月方源、韩立、唐三是最初的三个研究入口，见[人物索引](notes/characters/README.md)。他们会在不同章节中接受不同问题的检验。新增人物应当补上现有样本解释不了的问题。
 
-```text
-dist/
-  index.html
-  villain-book-zh.html
-  villain-book-zh.txt
-  villain-book-zh.epub
-  villain-book-en.html
-  villain-book-en.txt
-  villain-book-en.epub
-  villain-book-bilingual.html
-  villain-book-bilingual.txt
-  villain-book-bilingual.epub
-  manifest.json
-  SHA256SUMS.txt
-```
+“反派”是本书的入口，不是对所有研究人物的统一判词。讨论一个主角的选择，不需要先把他改判成反派；讨论一个反派的能力，也不需要先为其行为开脱。
 
-`index.html` 是双语网页阅读版，可在浏览器中直接打开，也可由 GitHub Pages 发布。
+## 怎样参与
 
-## 开始写下一章
+可以提交一个具体场景、一处事实纠正，或对某段推理的反驳。请说明作品版本和可定位的位置。起点见[参与方式](CONTRIBUTING.md)与[场景卡模板](templates/scene.md)。
 
-目录中的每一章已经在 `book.toml` 中预先登记。以韩立为例：
+本项目尚未决定最终署名、开放许可及译本计划。这些决定留在正文方向稳定之后。
 
-```powershell
-python scripts/new_chapter.py han-li
-```
+## 与旧版的关系
 
-命令会创建 `content/04-han-li.md`，并将该章状态从 `planned` 改为 `draft`。随后补写中英文正文：
+本版来自 v2 重建稿，整体替换此前固定九人目录、双语稿与多格式构建工程。旧版文件不再保留在当前版本中，可通过本仓库的 Git 历史回查。
 
-```markdown
-<!-- lang:zh -->
-中文正文
-
-<!-- lang:en -->
-English text
-```
-
-再次运行构建即可把该章加入三种成品。章节状态可设为：
-
-- `planned`：仅保留目录，不进入成品。
-- `draft`：已有双语初稿，进入成品。
-- `review`：结构完整，正在核对事实与译名。
-- `final`：可发布版本。
-
-## 项目结构
-
-```text
-book.toml                 书名、版本、编目与九章状态
-content/                  中英双语章节源文件
-scripts/build_book.py     零依赖 HTML / TXT / EPUB 构建器
-scripts/new_chapter.py    按目录创建下一章双语骨架
-tests/                    构建与出版结构测试
-.github/workflows/        自动构建、测试并发布 GitHub Pages
-```
-
-GitHub Actions 在推送到 `main` 后自动执行内容校验、构建和测试，并把 `dist/` 发布到 GitHub Pages。首次使用时，需要在仓库的 **Settings → Pages** 中将来源设为 **GitHub Actions**。
-
-## 写作原则
-
-- 理解动机，但不取消责任。
-- 不把冷酷等同于强大，不把效率等同于正确。
-- 每一章都写出愿景的真实吸引力，也写出它删除了什么。
-- 区分合作与依赖、价值承诺与身份执念、可逆试验与升级承诺。
-- 中英文事实与判断保持一致，但不要求逐句直译。
-
-## 版权
-
-本书讨论受版权和商标保护的虚构人物与作品，不主张角色、商标或原作情节的所有权。公开发布前请阅读 [RIGHTS.md](RIGHTS.md)，确认许可、引文与第三方素材授权。当前仓库未设置开放许可，默认保留所有权利。
-
-## English
-
-This repository is a bilingual, progressively published book about nine popular-culture figures: four from web fiction and five from comics. Each chapter treats their personal power and psychological patterns as objects of study: unwavering will, rigorous plans, immovable resolve, cohesive teams, and ambitious ideals. It then applies two tests: **freedom** and **reason**.
-
-The book is not a celebration of villainy or a disguised success manual. It asks how a villain's power forms, how that power operates, what it deletes, whether dissent and exit remain possible, and whether judgment stays open to correction.
-
-The project currently contains a bilingual preface, introduction, and three sample chapters on Fang Yuan, Hun Tiandi, and Magneto. The remaining chapters are configured in `book.toml` and will enter the finished editions as their bilingual drafts are completed.
-
-Version 2.0 follows the nine figures confirmed in the current outline.
-
-Build all editions with:
-
-```powershell
-python scripts/build_book.py --variant all
-```
-
-The only runtime requirement is Python 3.11 or newer.
-
+重建理由和可以保留的旧版资产，见[旧版复盘](notes/rebuild-review.md)。

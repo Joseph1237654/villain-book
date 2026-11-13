@@ -1,43 +1,23 @@
-# 参与修订
+# 参与方式
 
-## 适合提交的内容
+最有用的贡献，是让一个判断变得更准确。
 
-- 事实错误、人物版本差异或引用不准确。
-- 论证跳跃、概念混用、对动机的过度推断。
-- 中文或英文版本的判断不一致。
-- 自由、理性、纠错、退出等核心术语使用不一致。
-- 构建器、EPUB 结构、可访问性或 GitHub Pages 流程问题。
+## 提交一处原作场景
 
-## 提交流程
+说明作品、版本、章节或集数，概述人物面对的选择，再写明它支持或反驳了哪段正文。可以从[场景卡模板](templates/scene.md)开始。
 
-1. 一个 Pull Request 尽量只处理一章或一个构建问题。
-2. 说明修改的是事实、结构、措辞还是出版流程。
-3. 标出所依据的原作、改编版本或可靠二手资料。
-4. 新增或改动双语章节后运行：
+无需上传整章原作或图片合集。一个可定位的位置，加上足够理解问题的简短概述，就可以进入讨论。
 
-```powershell
-python scripts/build_book.py --check
-python -m unittest discover -s tests -v
-```
+## 提出反驳
 
-## 编辑判断
+可以直接指出“这段推理不成立”。请尽量说明是哪一步：把台词当事实、忽略另一种选择、混用改编版本、漏算他人的贡献，或把设定优势当成现实能力。
 
-- 不收录长段原作文本、盗版资源或未经授权的角色图片。
-- 不把“理解反派”改写为“替反派辩护”。
-- 不把某一改编版本的设定当作所有版本的事实。
-- 提取可迁移能力时，必须同时写出边界、风险和替代做法。
-- 新增人物前先确认它是否能提供新的机制，而不只是增加知名度。
+支持同一人物的读者也可能不同意彼此。讨论集中在文本、解释和理由，不据此评价读者的人格。
 
-## English
+## 修改正文
 
-Keep each pull request focused on one chapter or one publishing concern. Identify whether a change concerns fact, structure, wording, or tooling, and name the primary text or adaptation behind factual corrections.
+一次修改集中处理一章或一个论点。新增事实附可追溯的来源，改判断说明依据。
 
-Run both commands before submitting:
+当前不要求双语同步。翻译、图片、版式与电子书格式都不优先于正文。
 
-```powershell
-python scripts/build_book.py --check
-python -m unittest discover -s tests -v
-```
-
-Understanding a villain is not the same as excusing the villain. The project favors short, necessary quotation, clear version distinctions, and capacity analysis that includes boundaries and alternatives.
-
+修改后检查本地链接能否打开、目录状态是否准确、待核材料是否仍有明确标记。不要把研究卡中的问题悄悄改成已经确认的人物事实。
